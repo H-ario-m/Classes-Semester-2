@@ -1,4 +1,3 @@
-package Binary_tree;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -162,6 +161,7 @@ public class TreePrinter {
         rightChild.setRight(rightRight);
 
         // Print the tree
+        TreePrinter.print(root);
         TreePrinter.print(root);
     }
 }
